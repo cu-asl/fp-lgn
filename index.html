@@ -1,63 +1,111 @@
 <!-- Replace the <html> to </html> block with this updated version -->
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="FP-LGN: Spatial Language Likelihood Grounding for Bayesian Fusion of Human–Robot Observations.">
-  <meta property="og:https://youtu.be/uvnvoDYs-G8" content="FP-LGN: Feature Pyramid Likelihood Grounding Network for Bayesian Fusion of Human-Robot Observations"/>
-  <meta property="og:description" content="Bayesian fusion of spatial language and robot sensing using FP-LGN."/>
-  <meta property="og:url" content="https://cu-asl.github.io/fp-lgn"/>
-  <!-- <meta property="og:image" content="static/images/your_banner_image.png" /> -->
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="FP-LGN: Spatial Language Likelihood Grounding for Bayesian Fusion of Human–Robot Observations."
+    />
+    <meta
+      property="og:https://youtu.be/uvnvoDYs-G8"
+      content="FP-LGN: Feature Pyramid Likelihood Grounding Network for Bayesian Fusion of Human-Robot Observations"
+    />
+    <meta
+      property="og:description"
+      content="Bayesian fusion of spatial language and robot sensing using FP-LGN."
+    />
+    <meta property="og:url" content="https://cu-asl.github.io/fp-lgn" />
+    <!-- <meta property="og:image" content="static/images/your_banner_image.png" /> -->
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-  <meta name="twitter:title" content="FP-LGN: Feature Pyramid Likelihood Grounding Network for Bayesian Fusion of Human-Robot Observations">
-  <meta name="twitter:description" content="FP-LGN for Bayesian fusion of human spatial language and robot sensor data.">
-  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+    <meta
+      name="twitter:title"
+      content="FP-LGN: Feature Pyramid Likelihood Grounding Network for Bayesian Fusion of Human-Robot Observations"
+    />
+    <meta
+      name="twitter:description"
+      content="FP-LGN for Bayesian fusion of human spatial language and robot sensor data."
+    />
+    <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image"> -->
-  <meta name="keywords" content="FP-LGN, Bayesian fusion, spatial language, robotics, aleatoric uncertainty">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FP-LGN: Feature Pyramid Likelihood Grounding Network for Bayesian Fusion of Human-Robot Observations</title>
+    <meta
+      name="keywords"
+      content="FP-LGN, Bayesian fusion, spatial language, robotics, aleatoric uncertainty"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      FP-LGN: Feature Pyramid Likelihood Grounding Network for Bayesian Fusion
+      of Human-Robot Observations
+    </title>
 
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/bulma.min.css" />
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css" />
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link rel="stylesheet" href="static/css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                Spatial Language Likelihood Grounding Network for Bayesian
+                Fusion of Human-Robot Observations
+              </h1>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"
+                  ><a target="_blank">Supawich Sitdhipol</a
+                  ><sup>1,2†</sup>,</span
+                >
+                <span class="author-block"
+                  ><a target="_blank">Waritwong Sukprasongdee</a
+                  ><sup>1,3†</sup>,</span
+                >
+                <span class="author-block"
+                  ><a href="https://ekapolc.github.io/" target="_blank"
+                    >Ekapol Chuangsuwanich</a
+                  ><sup>2</sup>,</span
+                >
+                <span class="author-block"
+                  ><a target="_blank">Rina Tse</a><sup>1,3*</sup></span
+                >
+              </div>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"
+                  ><sup>1</sup> Autonomous Systems Lab,</span
+                >
+                <span class="author-block"
+                  ><sup>2</sup> Dept. of Computer Engineering,</span
+                >
+                <span class="author-block"
+                  ><sup>3</sup> Dept. of Mechanical Engineering,<br />
+                  Faculty of Engineering, Chulalongkorn University
+                </span>
+                <span class="eql-cntrb"
+                  ><br /><sup>†</sup> Equal contribution &nbsp;&nbsp;&nbsp;
+                  <sup>*</sup> Corresponding author</span
+                >
+              </div>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Spatial Language Likelihood Grounding Network for Bayesian Fusion of Human-Robot Observations</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><a target="_blank">Supawich Sitdhipol</a><sup>1,2†</sup>,</span>
-            <span class="author-block"><a target="_blank">Waritwong Sukprasongdee</a><sup>1,3†</sup>,</span>
-            <span class="author-block"><a href="https://ekapolc.github.io/" target="_blank">Ekapol Chuangsuwanich</a><sup>2</sup>,</span>
-            <span class="author-block"><a target="_blank">Rina Tse</a><sup>1,3*</sup></span>
-          </div>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup> Autonomous Systems Lab,</span>
-            <span class="author-block"><sup>2</sup> Dept. of Computer Engineering,</span>
-            <span class="author-block"><sup>3</sup> Dept. of Mechanical Engineering,<br>
-              Faculty of Engineering, Chulalongkorn University
-            </span>
-            <span class="eql-cntrb"><br><sup>†</sup> Equal contribution &nbsp;&nbsp;&nbsp; <sup>*</sup> Corresponding author</span>
-          </div>
-            
-
-          <!-- <div class="column has-text-centered">
+              <!-- <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
                 <a href="static/pdfs/fplgn-paper.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
@@ -73,48 +121,80 @@
               </span>
             </div>
           </div> -->
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Teaser video section -->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <div class="publication-video" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-        <iframe 
-          src="https://www.youtube.com/embed/uvnvoDYs-G8?si=ZYAdfPprHitFTRnf"
-          frameborder="0"
-          allowfullscreen
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        ></iframe>
+    <!-- Teaser video section -->
+    <section
+      class="hero teaser"
+      style="padding-left: 24px; padding-right: 24px"
+    >
+      <div class="hero-body" style="padding-left: 0; padding-right: 0">
+        <div
+          class="publication-video"
+          style="
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            margin: 0 auto;
+          "
+        >
+          <iframe
+            src="https://www.youtube.com/embed/uvnvoDYs-G8?si=ZYAdfPprHitFTRnf"
+            frameborder="0"
+            allowfullscreen
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+          ></iframe>
+        </div>
+        <h2 class="subtitle has-text-centered">[Teaser Video]</h2>
       </div>
-      
-      <h2 class="subtitle has-text-centered">[Teaser Video]</h2>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Abstract section -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Fusing information from human observations can help robots overcome sensing limitations in collaborative tasks. However, an uncertainty-aware fusion framework requires a grounded likelihood representing the uncertainty of human inputs. This paper presents a Feature Pyramid Likelihood Grounding Network (FP-LGN) that grounds spatial language by learning relevant map image features and their relationships with spatial relation semantics. The model is trained as a probability estimator to capture aleatoric uncertainty in human language using three-stage curriculum learning. Results showed that FP-LGN matched expert-designed rules in mean Negative Log-Likelihood (NLL) and demonstrated greater robustness with lower standard deviation. Collaborative sensing results demonstrated that the grounded likelihood successfully enabled uncertainty-aware fusion of heterogeneous human language observations and robot sensor measurements, achieving significant improvements in human–robot collaborative task performance.
-          </p>
+    <!-- Abstract section -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Fusing information from human observations can help robots
+                overcome sensing limitations in collaborative tasks. However, an
+                uncertainty-aware fusion framework requires a grounded
+                likelihood representing the uncertainty of human inputs. This
+                paper presents a Feature Pyramid Likelihood Grounding Network
+                (FP-LGN) that grounds spatial language by learning relevant map
+                image features and their relationships with spatial relation
+                semantics. The model is trained as a probability estimator to
+                capture aleatoric uncertainty in human language using
+                three-stage curriculum learning. Results showed that FP-LGN
+                matched expert-designed rules in mean Negative Log-Likelihood
+                (NLL) and demonstrated greater robustness with lower standard
+                deviation. Collaborative sensing results demonstrated that the
+                grounded likelihood successfully enabled uncertainty-aware
+                fusion of heterogeneous human language observations and robot
+                sensor measurements, achieving significant improvements in
+                human–robot collaborative task performance.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Carousel placeholders -->
-<!-- <section class="hero is-small">
+    <!-- Carousel placeholders -->
+    <!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -126,11 +206,11 @@
   </div>
 </section> -->
 
-<!-- BibTeX -->
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-<pre><code>@inproceedings{sitdhipol2025fplgn,
+    <!-- BibTeX -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@inproceedings{sitdhipol2025fplgn,
   title     = {Spatial Language Likelihood Grounding Network for Bayesian Fusion of Human–Robot Observations},
   author    = {Supawich Sitdhipol and Waritwong Sukprasongdee and Ekapol Chuangsuwanich and Rina Tse},
   booktitle = {IEEE International Conference on Systems, Man, and Cybernetics (SMC)},
@@ -138,23 +218,42 @@
   organization = {IEEE}
 }
 </code></pre>
-  </div>
-</section>
+      </div>
+    </section>
 
-<!-- Footer unchanged -->
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+    <!-- Footer unchanged -->
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                This page was built using the
+                <a
+                  href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                  target="_blank"
+                  >Academic Project Page Template</a
+                >
+                which was adopted from the <a
+                  href="https://nerfies.github.io"
+                  target="_blank"
+                  >Nerfies</a
+                > project page. You are free to borrow the source code of this
+                website, we just ask that you link back to this page in the
+                footer. <br />
+                This website is licensed under a
+                <a
+                  rel="license"
+                  href="http://creativecommons.org/licenses/by-sa/4.0/"
+                  target="_blank"
+                  >Creative Commons Attribution-ShareAlike 4.0 International
+                  License</a
+                >.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </footer>
+  </body>
+</html>
